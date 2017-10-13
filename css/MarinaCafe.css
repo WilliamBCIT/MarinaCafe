@@ -1,0 +1,66 @@
+h1 {
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-size: 70px;
+	line-height: 100px;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 97%;
+    background: #fff;
+    padding: .6em 1em .75em;
+    display: inline-block;
+    line-height: 1;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+
+@media all and (max-width: 1800px) {
+body {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	line-height: 3em;
+    font-size: 1.5em;
+}
+}
+
+@media all and (max-width: 1000px) {
+body {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	line-height: 2em;
+    font-size: 1.2em;
+}
+}
+
+@media all and (max-width: 500px) {
+    body {
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	line-height: 1em;
+    font-size: 0.8em;
+}
+}
+
+nav {
+	font-size: 120%;
+}
+
+.col-xs-3 {
+	height: 45em;
+	background-image: url('../images/cafe_background2.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.col-lg-9 {
+	background-color: #ddd;
+	font-size: 120%;
+}
+
+.menu {
+	margin-left: 3%;
+}
+
+.container-fluid {
+	background-color: #fff;
+}
