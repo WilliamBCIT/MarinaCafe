@@ -43,6 +43,12 @@ nav {
 	font-size: 120%;
 }
 
+footer {
+	background-color: #777;
+	color: white;
+	text-align: center;
+}
+
 .col-xs-3 {
 	height: 45em;
 	background-image: url('../images/cafe_background2.png');
