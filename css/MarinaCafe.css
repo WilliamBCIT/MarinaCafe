@@ -18,7 +18,7 @@ h4 {
 @media all and (max-width: 1800px) {
 body {
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	line-height: 3em;
+	line-height: 2em;
     font-size: 1.5em;
 }
 }
@@ -26,7 +26,7 @@ body {
 @media all and (max-width: 1000px) {
 body {
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
-	line-height: 2em;
+	line-height: 1.5em;
     font-size: 1.2em;
 }
 }
@@ -54,42 +54,16 @@ footer {
 }
 
 .col-xs-3 {
-	height: 45em;
-	background-image: url('../images/cafe_background2.png');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	background-size: cover;
 }
 
-.col-lg-9 {
+.col-lg-6 {
 	background-color: #ddd;
 	font-size: 120%;
 }
 
-.col-lg-3 {
-	background-color: #ddd;
-	font-size: 120%;
-	height: 38em;
-}
-
-.performance:hover img { 
-	border:2px; 
-	solid: #333; 
-}
-
-.performance:hover .layer { 
-	border:2px; 
-	solid: #F90; 
-}
-
-.hidden {
-	display: none;
-}
-
-.performer {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+#performer {
+	min-width:100%;
 }
 
 .menu {
