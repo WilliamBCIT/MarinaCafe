@@ -43,6 +43,10 @@ nav {
 	font-size: 120%;
 }
 
+ul {
+	list-style-type: none;
+}
+	
 footer {
 	background-color: #777;
 	color: white;
@@ -54,13 +58,38 @@ footer {
 	background-image: url('../images/cafe_background2.png');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 
 .col-lg-9 {
 	background-color: #ddd;
 	font-size: 120%;
+}
+
+.col-lg-3 {
+	background-color: #ddd;
+	font-size: 120%;
+	height: 38em;
+}
+
+.performance:hover img { 
+	border:2px; 
+	solid: #333; 
+}
+
+.performance:hover .layer { 
+	border:2px; 
+	solid: #F90; 
+}
+
+.hidden {
+	display: none;
+}
+
+.performer {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
 }
 
 .menu {
