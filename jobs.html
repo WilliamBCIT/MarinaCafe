@@ -49,11 +49,27 @@
 					<p>Complete the following form to begin the job application process,
 					or visit the Cafe in person to see the opportunities first hand.</p>
 				<h3>Application Form:</h3>
-                    <form>
-					    Name: &nbsp;<input type="text" name="Name" maxlength="30" required="required" /><br /><br />
-		                E-mail: &nbsp;<input type="text" name="Name" maxlength="30" required="required" /><br /><br />
-					    Phone: &nbsp;<input type="text" name="Name" maxlength="14" required="required" /><br /><br />
-
+				<br />
+                    <form action="job_applications.php" method="post">
+					    Name: &nbsp;<input type="text" name="name" maxlength="30" required="required" /><br /><br />
+		                E-mail: &nbsp;<input type="text" name="email" maxlength="30" required="required" /><br /><br />
+					    Phone: &nbsp;<input type="text" name="phone" maxlength="12" required="required" />&nbsp;(###-###-####)<br /><br />
+						Positions to apply for:<br />
+						<input type="checkbox" name="bar_associate" value="bar_associate">&nbsp;Bar Associate<br />
+                        <input type="checkbox" name="server" value="server">&nbsp;Server<br />
+						<input type="checkbox" name="cleaning_maintenance" value="cleaning_maintenance">&nbsp;Cleaning & Maintenance<br />
+                        <input type="checkbox" name="manager" value="manager">&nbsp;Manager<br /><br />
+                        Employment Type: &nbsp;<input type="radio" name="employment_type" value="part_time">&nbsp;Part-Time
+						              <input type="radio" name="employment_type" value="full_time">&nbsp;Full-Time<br />
+                        Gender: &nbsp;<input type="radio" name="gender" value="male">&nbsp;Male
+						              <input type="radio" name="gender" value="female">&nbsp;Female<br />
+						Years of Work Experience:&nbsp;<select name="years_of_experience"> 
+											 <option value="0">No experience</option>
+                                             <option value="1">Less than 1 year</option>
+                                             <option value="2">More than 1 year</option>
+                                      </select><br /><br />
+						Comments: &nbsp;<textarea name="Comment" ></textarea><br /><br />
+					<input type="submit" /> <input type="reset" />
 					</form>
 					<br /><br /><br /><br /><br />
 			</div>
