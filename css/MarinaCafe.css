@@ -73,3 +73,8 @@ footer {
 #email {
 	color: #333;
 }
+
+textarea {
+    vertical-align:middle;
+    display:inline-block;
+}
