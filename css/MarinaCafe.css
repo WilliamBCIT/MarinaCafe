@@ -75,6 +75,7 @@ footer {
 }
 
 textarea {
+	width: 30%;
     vertical-align:middle;
     display:inline-block;
 }
