@@ -2,12 +2,6 @@ nav {
 	font-size: 120%;
 }
 
-h1 {
-	font-family: 'Lobster', Georgia, Times, serif;
-	font-size: 70px;
-	line-height: 100px;
-}
-
 h4 {
 	font-weight: bold;
 	font-size: 97%;
@@ -31,7 +25,7 @@ body {
 body {
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
 	line-height: 1.5em;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 }
 
@@ -39,7 +33,7 @@ body {
     body {
 	font-family: 'Cabin', Helvetica, Arial, sans-serif;
 	line-height: 1em;
-    font-size: 0.8em;
+    font-size: 1.1em;
 }
 }
 
